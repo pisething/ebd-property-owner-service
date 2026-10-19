@@ -36,3 +36,7 @@ platform:
     user:
       base-url: ${USER_SERVICE_URL:http://localhost:8089}
       root-path: /api/v1/users		
+security:
+  provisioning:
+    client-id: ${PROVISIONING_CLIENT_ID:user-service-provisioning}
+    audience: ${PROVISIONING_AUDIENCE:property-owner-service}
