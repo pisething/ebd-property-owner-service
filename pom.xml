@@ -132,6 +132,24 @@
             <artifactId>platform-security</artifactId>
             <version>${platform-libraries.version}</version>
         </dependency>
+<!-- Shared registration event contracts -->
+        <dependency>
+            <groupId>com.pisethjavaschool.platform</groupId>
+            <artifactId>platform-events</artifactId>
+            <version>${platform-libraries.version}</version>
+        </dependency>
+
+        <!-- Shared transactional outbox infrastructure -->
+        <dependency>
+            <groupId>com.pisethjavaschool.platform</groupId>
+            <artifactId>platform-outbox</artifactId>
+            <version>${platform-libraries.version}</version>
+        </dependency>
+		<dependency>
+            <groupId>com.pisethjavaschool.platform</groupId>
+            <artifactId>platform-kafka</artifactId>
+            <version>${platform-libraries.version}</version>
+        </dependency>
         
         <!-- Mapping -->
         <dependency>
