@@ -13,3 +13,7 @@ databaseChangeLog:
       file: db/changelog/changes/005-seed-owner-document-type.yml
   - include:
       file: db/changelog/changes/006-enforce-unique-active-owner-document.yml
+  - include:
+      file: db/changelog/changes/007-create-property-owner-registration-inbox.yml
+  - include:
+      file: db/changelog/platform/outbox/001-create-outbox-event-table.yaml	  
